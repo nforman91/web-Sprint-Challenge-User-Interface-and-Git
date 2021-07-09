@@ -102,6 +102,11 @@ header nav a{
     padding:1px 20px 10px 20px;
 }
 
+header nav a:hover{
+    background-color:black;
+    color:white;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -218,4 +223,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    background-color:white;
+    color:black;
 }
