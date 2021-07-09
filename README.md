@@ -34,23 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-***NEEDS ANSWER***
+Semantic HTML elements (ex. <section>, <main>, <footer>) clearly describe their content. The name of the element tells us what they contain. For example, we would expect a <footer> to contain a footer.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-***NEEDS ANSWER***
+1. Display:block; generates line breaks before and after the element, whereas display:inline; does not.
+2. Display:block; accepts height & width properties, whereas display:inline does not.
 
 3. What are the 4 areas of the box model?
 
-***NEEDS ANSWER***
+Content, padding, border, and margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-***NEEDS ANSWER***
+The cross axis.
 
 5. Explain why git is valuable to a team of developers.
 
-***NEEDDS ANSWER***
+Git is valuable to a team of developers because it is a version control system that allows developers to track changes to the code, recall previous project states, and compare code changes over time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,8 +60,8 @@ You are expected to be able to answer all these questions. Your responses contri
 - [x] Create a forked copy of this project.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
