@@ -78,18 +78,22 @@ header{
 
 .logo{
     margin-top:50px;
+    margin-left:30px;
+    margin-bottom:24px;
     height:50px;
 }
 
-.jumbo{
+.jumbo-about{
     margin:0 auto;
+    height:30vh;
+    width:97%;
 }
 
 header nav{
     display:flex;
     justify-content:space-between;
     align-items:flex-end;
-    width:75%;
+    width:70%;
     padding:15px;
 }
 
@@ -100,4 +104,141 @@ header nav a{
     color:black;
     text-decoration:none;
     padding:1px 20px 10px 20px;
+}
+
+.container{
+    width:800px;
+    margin:0 auto;
+}
+
+.container-about-page{
+    margin-top:100px;
+    padding-left:50px;
+    padding-right:50px;
+    height:155vh;
+    width:100%;
+}
+
+.about-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    border-bottom:1px dotted black;
+    height:15vh;
+    width:90%;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+.about-text{
+    padding-top:5px;
+    padding-bottom:20px;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+
+.flex_section{
+    height:1000px;
+    width:90%;
+    margin-left:30px;
+}
+
+.top_half{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+    height:500px;
+    width:100%;
+}
+
+.bottom_half{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+    height:500px;
+    width:100%;
+}
+
+.images{
+    padding:10px;
+    height:250px;
+    width:100%;
+}
+
+h2{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom:-5px;
+    padding:10px;
+    height:50px;
+    width:300px;
+}
+
+.snippets{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    padding:10px;
+    height:100px;
+    width:100%;
+}
+
+.learn_more{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+    height:50px;
+    width:150px;
+}
+
+.sections{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    border-bottom:1px dotted black;
+    margin-right:20px;
+    padding-bottom:10px;
+    height:450px;
+    width:50%;
+}
+
+#last_section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    height:15vh;
+    width:95%;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+footer {
+    margin:0 auto;
+    width: 97%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
